@@ -15,7 +15,8 @@ object Bot: ListenerAdapter() {
         Coinflip(),
         Rng(),
         Pfp(),
-        Github()
+        Github(),
+        Server()
     )
 
     override fun onMessageReceived(event: MessageReceivedEvent) {
