@@ -16,7 +16,8 @@ object Bot: ListenerAdapter() {
         Rng(),
         Pfp(),
         Github(),
-        Server()
+        Server(),
+        NameMc(),
     )
 
     override fun onMessageReceived(event: MessageReceivedEvent) {
